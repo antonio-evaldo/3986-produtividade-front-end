@@ -32,7 +32,7 @@
   transition: .5s;
 }
 
-.secao-categorias__botao.selecionado {
+.secao-categorias__botao--selecionado {
   background: var(--azul-destaque-light);
   color: var(--branco);
 }

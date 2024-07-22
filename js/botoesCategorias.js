@@ -26,6 +26,6 @@ function atualizarEstadosDosBotoes(categoriaSelecionada) {
   botoesCategorias.forEach((botao) => {
     const botaoFoiSelecionado = botao.getAttribute("name") === categoriaSelecionada;
 
-    botao.classList.toggle("selecionado", botaoFoiSelecionado);
+    botao.classList.toggle("secao-categorias__botao--selecionado", botaoFoiSelecionado);
   })
 }
