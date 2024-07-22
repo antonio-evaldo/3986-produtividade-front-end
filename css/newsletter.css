@@ -50,6 +50,26 @@
   cursor: pointer;
 }
 
+.modo-escuro .newsletter {
+  background-color: var(--azul-primario);
+}
+
+.modo-escuro .newsletter__inscreva-se {
+  color: var(--cinza-claro);
+}
+
+.modo-escuro .newsletter__input {
+  border: 1px solid var(--azul-destaque-dark);
+}
+
+.modo-escuro .newsletter__input::placeholder {
+  color: var(--azul-medio);
+}
+
+.modo-escuro .newsletter__botao-inscrever {
+  background-color: var(--azul-destaque-dark);
+}
+
 @media(min-width: 834px) {
   .newsletter {
     margin-bottom: 40px;

@@ -37,6 +37,21 @@
   color: var(--branco);
 }
 
+.modo-escuro .secao-categorias__botao {
+  background-color: var(--azul-primario);
+  color: var(--cinza-medio);
+}
+
+.modo-escuro .secao-categorias__botao:hover {
+  background-color: var(--cinza-medio);
+  color: var(--cinza-escuro);
+}
+
+.modo-escuro .secao-categorias__botao--selecionado {
+  background-color: var(--azul-destaque-dark);
+  color: var(--branco);
+}
+
 @media(min-width: 834px) {
   .secao-categorias {
     border-top: var(--azul-medio) 1px solid;

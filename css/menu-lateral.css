@@ -170,6 +170,54 @@
   }
 }
 
+.modo-escuro .menu-lateral__icone-inicio::before {
+  content: url("../img/modo_escuro/menu_lateral/home.svg");
+}
+
+.modo-escuro .menu-lateral__icone-explorar::before {
+  content: url("../img/modo_escuro/menu_lateral/explore.svg");
+}
+
+.modo-escuro .menu-lateral__icone-shorts::before {
+  content: url("../img/modo_escuro/menu_lateral/airplay.svg");
+}
+
+.modo-escuro .menu-lateral__icone-inscricoes::before {
+  content: url("../img/modo_escuro/menu_lateral/subscriptions.svg");
+}
+
+.modo-escuro .menu-lateral__icone-biblioteca::before {
+  content: url("../img/modo_escuro/menu_lateral/video_library.svg");
+}
+
+.modo-escuro .menu-lateral__icone-historico::before {
+  content: url("../img/modo_escuro/menu_lateral/history.svg");
+}
+
+.modo-escuro .menu-lateral__icone-relogio::before {
+  content: url("../img/modo_escuro/menu_lateral/history_toggle_off.svg");
+}
+
+.modo-escuro .menu-lateral__icone-like::before {
+  content: url("../img/modo_escuro/menu_lateral/thumb_up_alt.svg");
+}
+
+.modo-escuro .menu-lateral__icone-mostrar::before {
+  content: url("../img/modo_escuro/menu_lateral/keyboard_arrow_down.svg");
+}
+
+.modo-escuro .menu-lateral__icone-videos::before {
+  content: url("../img/modo_escuro/menu_lateral/ondemand_video.svg");
+}
+
+.modo-escuro .menu-lateral__icone-filmes::before {
+  content: url("../img/modo_escuro/menu_lateral/movie.svg");
+}
+
+.modo-escuro .menu-lateral__icone-jogos::before {
+  content: url("../img/modo_escuro/menu_lateral/sports_esports.svg");
+}
+
 @media(min-width: 1440px) {
   .menu-lateral {
     width: 239px;

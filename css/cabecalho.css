@@ -142,9 +142,30 @@
   background-color: var(--cinza-claro);
 }
 
-body.modo-escuro .cabecalho__videos {
+.modo-escuro .cabecalho__input-pesquisa {
+  border-color: var(--cinza-medio);
+}
+
+.modo-escuro .cabecalho__botao-pesquisa {
+  background-color: var(--cinza-medio);
+}
+
+.modo-escuro .cabecalho__videos {
   background-image: url("../img/modo_escuro/menu_superior/video_call.svg");
 }
+
+.modo-escuro .cabecalho__apps {
+  background-image: url("../img/modo_escuro/menu_superior/apps.svg");
+}
+
+.modo-escuro .cabecalho__notificacoes {
+  background-image: url("../img/modo_escuro/menu_superior/notifications.svg");
+}
+
+.modo-escuro .cabecalho__avatar {
+  background-image: url("../img/modo_escuro/menu_superior/Avatar.png");
+}
+
 
 @media (min-width: 1156px) {
   .cabecalho__pesquisa-container {
