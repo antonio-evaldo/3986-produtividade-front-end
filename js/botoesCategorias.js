@@ -16,7 +16,7 @@ function filtrarPorCategoria(filtro) {
   for (const video of videos) {
     const categoria = video.querySelector(".video-principal__categoria").textContent.toLowerCase();
 
-    const mostrarVideo = valorFiltro === 'Tudo' || categoria.includes(valorFiltro);
+    const mostrarVideo = valorFiltro === 'tudo' || categoria.includes(valorFiltro);
 
     video.classList.toggle("video-principal--escondido", !mostrarVideo);
   }
