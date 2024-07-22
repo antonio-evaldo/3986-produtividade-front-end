@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/conteudo-principal.css">
+    <title>VidFlow</title>
+    <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img src="./img/modo_claro/vidflow-logo-light-mode.png" alt="Página inicial do VidFlow">
+        </div>
+
+        <div class="cabecalho__pesquisa-container">
+            <form class="cabecalho__form-pesquisa">
+                <input type="search" class="cabecalho__input-pesquisa" placeholder="Pesquisar">
+
+                <img src="./img/modo_claro/menu_superior/keyboard.svg" alt="" class="cabecalho__input-img-teclado">
+
+                <button class="cabecalho__botao-pesquisa">
+                    <img src="./img/modo_claro/menu_superior/search.svg" alt="ícone de lupa">
+                </button>
+            </form>
+        </div>
+
+        <div class="cabecalho__links-e-botao-switch">
+            <ul class="cabecalho__links">
+                <li>
+                    <a href="#" class="cabecalho__videos"></a>
+                </li>
+
+                <li>
+                    <a href="#" class="cabecalho__apps"></a>
+                </li>
+
+                <li>
+                    <a href="#" class="cabecalho__notificacoes"></a>
+                </li>
+
+                <li>
+                    <a href="#" class="cabecalho__avatar"></a>
+                </li>
+            </ul>
+
+            <label class="cabecalho__switch">
+                <input type="checkbox" class="cabecalho__switch-input">
+                <span class="cabecalho__switch-slider"></span>
+            </label>
+        </div>
+    </header>
+
+    <aside class="menu-lateral">
+        <section class="menu-lateral__secao">
+            <ul class="menu-lateral__lista menu-lateral__links-principais">
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-inicio"></i>
+                        <span>Início</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-explorar"></i>
+                        <span>Explorar</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-shorts"></i>
+                        <span>Shorts</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-inscricoes"></i>
+                        <span>Inscrições</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-biblioteca"></i>
+                        <span>Biblioteca</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-lateral__secao">
+            <ul class="menu-lateral__lista">
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-historico"></i>
+                        <span>Histórico</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-relogio"></i>
+                        <span>Assistir mais tarde</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-like"></i>
+                        <span>Marcados com like</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-lateral__secao">
+            <span class="menu-lateral__secao-titulo">Inscrições</span>
+
+            <ul class="menu-lateral__lista">
+                <li class="menu-lateral__canal">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-alura"></i>
+                        <span>Alura</span>
+                    </a>
+                </li>
+
+                <li class="menu-lateral__canal">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-gaveta"></i>
+                        <span>Gaveta</span>
+                    </a>
+                </li>
+
+                <li class="menu-lateral__canal">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-ballerini"></i>
+                        <span>Rafaella Ballerini</span>
+                    </a>
+                </li>
+
+                <li class="menu-lateral__canal">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-iamarino"></i>
+                        <span>Atila Iamarino</span>
+                    </a>
+                </li>
+
+                <li class="menu-lateral__canal">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-souto"></i>
+                        <span>Mario Souto</span>
+                    </a>
+                </li>
+
+                <li class="menu-lateral__canal colapsado">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-nerd"></i>
+                        <span>Jovem Nerd</span>
+                    </a>
+                </li>
+
+                <li class="menu-lateral__canal colapsado">
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-deschamps"></i>
+                        <span>Felipe Deschamps</span>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="menu-lateral__item menu-lateral__botao-alternar-canais">
+                <i class="menu-lateral__icone-alternar-canais"></i>
+                <span class="menu-lateral__texto-alternar-canais">Mostrar mais 2</span>
+            </button>
+        </section>
+
+        <section class="menu-lateral__secao">
+            <span class="menu-lateral__secao-titulo">
+                Mais da página
+            </span>
+
+            <ul class="menu-lateral__lista">
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-videos"></i>
+                        <span>Vídeo Premium</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-filmes"></i>
+                        <span>Filmes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="menu-lateral__item" href="#">
+                        <i class="menu-lateral__icone-jogos"></i>
+                        <span>Jogos</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+
+    <main class="conteudo-principal">
+        <section class="secao-categorias">
+            <button name="Tudo" class="secao-categorias__botao selecionado">
+                Tudo
+            </button>
+
+            <button name="Debates" class="secao-categorias__botao">
+                Debates
+            </button>
+
+            <button name="Ao Vivo" class="secao-categorias__botao">
+                Ao Vivo
+            </button>
+
+            <button name="Podcasts" class="secao-categorias__botao">
+                Podcasts
+            </button>
+
+            <button name="Front-end" class="secao-categorias__botao">
+                Front-end
+            </button>
+
+            <button name="Mobile" class="secao-categorias__botao">
+                Mobile
+            </button>
+
+            <button name="Data Science" class="secao-categorias__botao">
+                Data Science
+            </button>
+
+            <button name="Apps" class="secao-categorias__botao">
+                Apps
+            </button>
+
+            <button name="Programação" class="secao-categorias__botao">
+                Programação
+            </button>
+
+            <button name="Inteligência Artificial" class="secao-categorias__botao">
+                Inteligência Artificial
+            </button>
+            <button name="Inovação" class="secao-categorias__botao">
+                Inovação
+            </button>
+        </section>
+
+        <form class="newsletter">
+            <span class="newsletter__inscreva-se">Inscreva-se para saber as novidades!</span>
+
+            <div class="newsletter__input-e-botao-container">
+                <input class="newsletter__input" type="email" placeholder="Insira seu endereço de email">
+                <button class="newsletter__botao-inscrever">Inscrever</button>
+            </div>
+        </form>
+
+        <ul class="videos-container">
+
+        </ul>
+    </main>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>

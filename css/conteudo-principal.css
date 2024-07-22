@@ -1,0 +1,21 @@
+@import url("./secao-categorias.css");
+@import url("./newsletter.css");
+@import url("./videos.css");
+
+.conteudo-principal {
+  padding: 153px 34px 16px;
+}
+
+@media(min-width: 834px) {
+  .conteudo-principal {
+    padding-left: 90px;
+    padding-right: 17px;
+  }
+}
+
+@media(min-width: 1440px) {
+  .conteudo-principal {
+    padding-right: 10px;
+    padding-left: 248px;
+  }
+}
