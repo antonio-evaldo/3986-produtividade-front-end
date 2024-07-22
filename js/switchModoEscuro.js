@@ -1,5 +1,6 @@
 // Seleciona o checkbox
 const switchInput = document.querySelector('.cabecalho__switch-input');
+const logo = document.getElementById('logo-vidflow');
 
 // Verifica se o modo escuro está ativado nas preferências do usuário
 if (localStorage.getItem('modo-escuro') === 'enabled') {
@@ -12,9 +13,13 @@ function toggleModoEscuro() {
   if (document.body.classList.contains('modo-escuro')) {
     document.body.classList.remove('modo-escuro');
     localStorage.setItem('modo-escuro', 'disabled');
+
+    logo.src = './img/modo_claro/vidflow-logo-light-mode.png';
   } else {
     document.body.classList.add('modo-escuro');
     localStorage.setItem('modo-escuro', 'enabled');
+
+    logo.src = './img/modo_escuro/vidflow-logo-dark-mode.png';
   }
 }
 
