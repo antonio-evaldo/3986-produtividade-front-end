@@ -34,6 +34,17 @@ body {
     text-align: center;
 }
 
+body.modo-escuro {
+    color: var(--cinza-medio);
+}
+
+body.modo-escuro,
+body.modo-escuro .cabecalho,
+body.modo-escuro .menu-lateral,
+body.modo-escuro .secao-categorias {
+    background-color: var(--azul-void);
+}
+
 ::-webkit-scrollbar {
     width: 0;
     height: 0;

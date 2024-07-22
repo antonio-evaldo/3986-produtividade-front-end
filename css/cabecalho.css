@@ -142,6 +142,10 @@
   background-color: var(--cinza-claro);
 }
 
+body.modo-escuro .cabecalho__videos {
+  background-image: url("../img/modo_escuro/menu_superior/video_call.svg");
+}
+
 @media (min-width: 1156px) {
   .cabecalho__pesquisa-container {
     display: block;

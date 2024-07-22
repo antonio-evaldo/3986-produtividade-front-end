@@ -2,21 +2,21 @@
 const switchInput = document.querySelector('.cabecalho__switch-input');
 
 // Verifica se o modo escuro está ativado nas preferências do usuário
-if (localStorage.getItem('dark-mode') === 'enabled') {
-  document.body.classList.add('dark-mode');
+if (localStorage.getItem('modo-escuro') === 'enabled') {
+  document.body.classList.add('modo-escuro');
   switchInput.checked = true;
 }
 
 // Função para alternar o modo escuro
-function toggleDarkMode() {
-  if (document.body.classList.contains('dark-mode')) {
-    document.body.classList.remove('dark-mode');
-    localStorage.setItem('dark-mode', 'disabled');
+function toggleModoEscuro() {
+  if (document.body.classList.contains('modo-escuro')) {
+    document.body.classList.remove('modo-escuro');
+    localStorage.setItem('modo-escuro', 'disabled');
   } else {
-    document.body.classList.add('dark-mode');
-    localStorage.setItem('dark-mode', 'enabled');
+    document.body.classList.add('modo-escuro');
+    localStorage.setItem('modo-escuro', 'enabled');
   }
 }
 
 // Adiciona o listener de evento para o checkbox
-switchInput.addEventListener('change', toggleDarkMode);
+switchInput.addEventListener('change', toggleModoEscuro);
