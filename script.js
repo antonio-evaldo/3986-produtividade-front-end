@@ -3,3 +3,4 @@ import "./js/formPesquisa.js";
 import "./js/switchModoEscuro.js";
 import "./js/botaoExpandirCanais.js";
 import "./js/botoesCategorias.js";
+import "./js/newsletter.js";
