@@ -6,6 +6,7 @@ const logo = document.getElementById('logo-vidflow');
 if (localStorage.getItem('modo-escuro') === 'enabled') {
   document.body.classList.add('modo-escuro');
   switchInput.checked = true;
+  logo.src = './img/modo_escuro/vidflow-logo-dark-mode.png';
 }
 
 // Função para alternar o modo escuro
