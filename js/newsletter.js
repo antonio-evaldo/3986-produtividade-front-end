@@ -17,7 +17,9 @@ function closeModal() {
 botaoFechar.addEventListener('click', closeModal);
 
 dialog.addEventListener('click', function (event) {
-  if (event.target.tagName === 'DIALOG') {
+  console.log(event.target);
+  // Verifica se o clique foi diretamente no dialog e não em seus elementos filhos
+  if (event.target === dialog) {
     dialog.close();
   }
 });
