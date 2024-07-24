@@ -51,33 +51,39 @@
 }
 
 .dialog-confirmacao::backdrop {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(21, 21, 21, 0.8);
 }
 
 .dialog-confirmacao {
-  border: none;
-  border-radius: 5px;
   padding: 0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
-  width: 80%;
+  border: 0;
+  border-radius: 16px;
+  width: calc(100% - 40px);
+  max-width: 656px;
 }
 
-.dialog-confimacao__conteudo {
-  padding: 50px;
+.dialog-confirmacao__conteudo {
+  padding: 19px;
+}
+
+.dialog-confirmacao__texto {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  color: var(--azul-void);
 }
 
 .dialog-confirmacao__fechar-modal {
-  background: none;
-  border: none;
-  font-size: 20px;
-  font-weight: bold;
-  float: right;
+  padding: 10px 24px;
+  border-radius: 40px;
+  background: var(--azul-destaque-light);
+  color: var(--branco);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
   cursor: pointer;
-}
-
-.dialog-confirmacao__fechar-modal:hover {
-  color: red;
 }
 
 .modo-escuro .newsletter {
@@ -98,6 +104,23 @@
 
 .modo-escuro .newsletter__botao-inscrever {
   background-color: var(--azul-destaque-dark);
+}
+
+.modo-escuro .dialog-confirmacao {
+  background-color: var(--azul-primario);
+}
+
+.modo-escuro .dialog-confirmacao__texto {
+  color: var(--cinza-medio);
+}
+
+.modo-escuro .dialog-confirmacao__fechar-modal {
+  background-color: var(--azul-destaque-dark);
+}
+
+.modo-escuro .botao-categoria {
+  background-color: var(--azul-primario);
+  color: var(--cinza-medio);
 }
 
 @media(min-width: 834px) {
